@@ -12,7 +12,7 @@ export const Intro = () => {
       {!quizStarted &&
         <div className="introtext">
           <h1 className="introHeading">Time to quiz!</h1>
-          <p className="quizCategory"> Do you know the Capital cities in Europe!?</p>
+          <p className="quizCategory"> Do you know the capital cities in Europe?</p>
           <button type="button" onClick={() => dispatch(quiz.actions.start())}>Start</button>
         </div>
       }
